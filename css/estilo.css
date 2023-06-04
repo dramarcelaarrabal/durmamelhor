@@ -1,0 +1,705 @@
+/* DRA. MARCELA ARRABAL - 2023 */
+/* CSS ZIMBA DESIGN @zimbacomunica */
+/* THIAGO GREGÓRIO @thiagofcgregorio */
+
+
+
+html{scroll-behavior: smooth;}
+:focus {outline:0 !important;}
+/*body{zoom: 85%}*/
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* LANDING *//* LANDING *//**//* LANDING *//* LANDING *//* LANDING */
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+
+/* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */  /* TOPO */ 
+
+
+.topo{
+  background-color: #ECEDEF;
+  padding: 3px 0 7px 0;
+}
+
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+  color: #727176;
+  font-size: 0.85rem;
+  font-weight: normal;
+  margin: 0 0 3px 0;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+  color: #3D3D3F;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span{
+  background-color: #727176;
+  color: #ECEDEF;
+  padding: 7px 23px;
+  border-radius: 55px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span:hover{
+  background-color: #3D3D3F;
+}
+
+
+
+/* BANNER PRINCIPAL */ /* BANNER PRINCIPAL */ /* BANNER PRINCIPAL */ /* BANNER PRINCIPAL */
+
+.banner-principal{
+    background-image: url(../imgs/FUNDO-0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 44px 0;
+    color: #5B5B5F;
+}
+
+.banner-principal h4{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.banner-principal h1{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.banner-principal a{
+  text-decoration: none;
+}
+
+.banner-principal h5{
+  text-align: center;
+  background-color: #5B5B5F;
+  padding: 10px 0 7px 0;
+  font-size: 1.10rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 55px;
+  margin: 23px 0 0 0;
+}
+
+.banner-principal h5:hover{
+  background-color: #3D3D3F;
+}
+
+
+
+/* MALEFÍCIOS RONCO */ /* MALEFÍCIOS RONCO */ /* MALEFÍCIOS RONCO */ /* MALEFÍCIOS RONCO */
+
+.maleficios-ronco{
+    background-image: url(../imgs/FUNDO-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    color: #5B5B5F;
+}
+
+.maleficios-ronco h2{
+  font-weight: bold;
+}
+
+.maleficios-ronco h5{
+  margin-bottom: 75px;
+}
+
+.maleficios-ronco h4{
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #fff;
+  padding: 9px 20px 12px 20px;
+  border-radius: 55px;
+  cursor: pointer;
+}
+
+.maleficios-ronco h4:hover{
+  background-color: #DEDEE2;
+}
+
+.maleficios-ronco a{
+  text-decoration: none;
+}
+
+.maleficios-ronco .botao-isolado h5{
+  text-align: center;
+  background-color: #5B5B5F;
+  padding: 10px 0 7px 0;
+  font-size: 1.10rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 55px;
+  margin: 13px 0 0 0;
+}
+
+.maleficios-ronco .botao-isolado h5:hover{
+  background-color: #3D3D3F;
+}
+
+
+
+/* O QUE É??? */ /* O QUE É??? */ /* O QUE É??? */ /* O QUE É??? */ /* O QUE É??? */ 
+
+.oque{
+    background-image: url(../imgs/FUNDO-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    color: #5B5B5F;
+}
+
+.oque h2{
+  font-weight: bold;
+}
+
+.oque h5{
+  margin-bottom: 65px;
+}
+
+.oque h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.oque h4{
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.oque .biologix img{
+  margin-bottom: 17px;
+}
+
+.oque a{
+  text-decoration: none;
+}
+
+.oque .botao-isolado h5{
+  text-align: center;
+  background-color: #5B5B5F;
+  padding: 10px 0 7px 0;
+  font-size: 1.10rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 55px;
+  margin: 13px 0 0 0;
+}
+
+.oque .botao-isolado h5:hover{
+  background-color: #3D3D3F;
+}
+
+
+
+/* TRATAMENTO */ /* TRATAMENTO */ /* TRATAMENTO */ /* TRATAMENTO */ /* TRATAMENTO */ 
+
+.tratamento{
+  background-color: #f5ece7;
+  padding: 55px;
+  color: #5B5B5F;
+}
+
+.tratamento h2{
+  font-weight: bold;
+}
+
+.tratamento h5{
+  margin-bottom: 55px;
+}
+
+.tratamento h4{
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+.tratamento .imgs-trat img{
+  margin-bottom: 13px;
+}
+
+.tratamento a{
+  text-decoration: none;
+}
+
+.tratamento .botao-isolado h5{
+  text-align: center;
+  background-color: #5B5B5F;
+  padding: 10px 0 7px 0;
+  font-size: 1.10rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 55px;
+  margin: 44px 0 0 0;
+}
+
+.tratamento .botao-isolado h5:hover{
+  background-color: #3D3D3F;
+}
+
+
+
+/* DRA. MARCELA ARRABAL */ /* DRA. MARCELA ARRABAL */ /* DRA. MARCELA ARRABAL */ 
+
+.dramarcela-arrabal{
+    background-image: url(../imgs/FUNDO-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 65px;
+    color: #5B5B5F;
+  }
+
+  .dramarcela-arrabal h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+   .dramarcela-arrabal h4{
+    font-size: 1.15rem;
+    font-weight: normal;
+  }
+
+  .dramarcela-arrabal h5{
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #E3E4E8;
+    padding: 19px 0 19px 0;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+  .dramarcela-arrabal h5:hover{
+    background-color: #CCC;
+  }
+
+
+
+/* CONSULTORIO */ /* CONSULTORIO */ /* CONSULTORIO */ /* CONSULTORIO */ /* CONSULTORIO */
+
+  .consultorio{
+      background-color: #EEE9E3;
+      padding: 65px;
+      color: #5B5B5F;
+  }
+
+  .consultorio h2{
+    font-weight: bold;
+  }
+
+  .consultorio h5{
+    margin-bottom: 55px;
+  }
+
+  .consultorio h4{
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .consultorio .texto h5{
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+  .consultorio iframe{
+    width: 100%;
+    height: 300px;
+  }
+
+
+
+/* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
+
+  .footer{
+    background-color: #444242;
+    padding: 77px 0;
+    color: #fff;
+  }
+
+  .footer h4{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 44px;
+  }
+
+  .footer h5{
+    font-weight: normal;
+    font-size: 1.1rem;
+  }
+
+  .footer a{
+    text-decoration: none;
+  }
+
+
+
+/* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */
+  
+  .last-section{
+    background-color: #353434;
+    color: #fff;
+    padding: 5px 0 2px 0;
+  }
+
+  .last-section a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .last-section h5{
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+
+
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* MIDIA QUERIES *//* MIDIA QUERIES *//**//* MIDIA QUERIES *//* MIDIA QUERIES *//* MIDIA QUERIES */
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+
+@media(max-width: 1300px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 0.8rem;
+  }
+
+}
+
+@media(max-width: 1200px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .banner-principal h4{
+    font-size: 1.1rem;
+  }
+
+  .banner-principal h5{
+    font-size: 1rem;
+  }
+
+  .maleficios-ronco h4{
+    font-size: 0.9rem;
+  }
+
+  .maleficios-ronco .botao-isolado h5{
+      font-size: 1rem;
+  }
+
+  .oque h4{
+    font-size: 1.1rem;
+  }
+
+  .oque .botao-isolado h5{
+    font-size: 1rem;
+  }
+
+  .tratamento h4{
+    font-size: 1.2rem;
+  }
+
+  .tratamento .botao-isolado h5{
+    font-size: 1rem;
+  }
+
+  .dramarcela-arrabal h3{
+    font-size: 1.3rem;
+  }
+
+  .dramarcela-arrabal h4{
+    font-size: 1.1rem;
+  }
+
+  .consultorio .texto h5{
+    font-size: 0.9rem;
+  }
+
+  .consultorio h4{
+    font-size: 1.3rem;
+  }
+
+  .consultorio iframe{
+    width: 350px;
+  }
+
+}
+
+
+@media(max-width: 1100px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 0.7rem;
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+
+}
+
+
+@media(max-width: 991px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 1rem;
+  }
+
+  .banner-principal{
+    text-align: center;
+  }
+
+  .banner-principal .foto-marcela img{
+    margin: 55px 0 22px 0;
+  }
+
+  .banner-principal h4{
+    margin-top: 15px;
+  }
+
+  .maleficios-ronco{
+    background-image: url(../imgs/FUNDO-1-responsivo.jpg);
+  }
+
+  .maleficios-ronco h4{
+    padding: 13px 20px 15px 20px;
+  }
+
+  .oque{
+    background-image: url(../imgs/FUNDO-2-responsivo.jpg);
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .oque .biologix img{
+    margin: 33px 0;
+  }
+
+  .tratamento{
+    text-align: center;
+  }
+
+  .tratamento .imgs-trat img{
+    margin: 23px 0;
+  }
+
+  .dramarcela-arrabal{
+    text-align: center;
+  }
+
+  .dramarcela-arrabal h3{
+    margin-top: 55px;
+  }
+
+  .consultorio{
+    text-align: center;
+  }
+
+  .consultorio iframe{
+    width: 450px;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .last-section{
+    text-align: center;
+  }
+
+}
+
+
+@media(max-width: 768px){
+
+  .banner-principal h5{
+    padding: 15px 0 14px 0;
+  }
+
+  .maleficios-ronco .botao-isolado h5{
+    padding: 15px 0 14px 0;
+  }
+
+  .oque .botao-isolado h5{
+    padding: 15px 0 14px 0;
+  }
+
+  .tratamento .botao-isolado h5{
+    padding: 15px 0 14px 0;
+  }
+
+  .maleficios-ronco h5{
+    margin-bottom: 44px;
+  }
+
+}
+
+
+@media(max-width: 550px){
+
+  .consultorio iframe{
+    width: 350px;
+  }
+
+  .last-section h5{
+    font-size: 0.8rem;
+  }
+
+  .banner-principal h1{
+    font-size: 2.7rem;
+  }
+
+  .tratamento .botao-isolado h5{
+    font-size: 0.9rem;
+  }
+
+}
+
+
+@media(max-width: 450px){
+
+  .consultorio iframe{
+    width: 300px;
+  }
+
+}
+
+
+@media(max-width: 400px){
+
+  .banner-principal h1{
+    font-size: 2.5rem;
+  }
+
+  .banner-principal h5{
+    font-size: 0.9rem;
+  }
+
+  .maleficios-ronco .botao-isolado h5{
+    font-size: 0.9rem;
+  }
+
+  .oque .botao-isolado h5{
+    font-size: 0.9rem;
+  }
+
+  .tratamento .botao-isolado h5{
+    font-size: 0.9rem;
+  }
+
+  .consultorio iframe{
+    width: 100%;
+  }
+
+  .maleficios-ronco h2{
+    font-size: 1.7rem;
+  }
+
+  .maleficios-ronco h5{
+    font-size: 1.1rem;
+  }
+
+  .oque h2{
+    font-size: 1.7rem;
+  }
+
+  .oque h5{
+    font-size: 1.1rem;
+  }
+
+  .tratamento h2{
+    font-size: 1.7rem;
+  }
+
+  .tratamento h5{
+    font-size: 1.1rem;
+  }
+
+  .consultorio h2{
+    font-size: 1.7rem;
+  }
+
+  .consultorio h5{
+    font-size: 1.1rem;
+  }
+
+}
+
+
+@media(max-width: 350px){
+
+  .topo img{
+    width: 160px;
+  }
+
+  .banner-principal h5{
+    font-size: 0.8rem;
+  }
+
+  .maleficios-ronco .botao-isolado h5{
+    font-size: 0.8rem;
+  }
+
+  .oque .botao-isolado h5{
+    font-size: 0.8rem;
+  }
+
+  .tratamento .botao-isolado h5{
+    font-size: 0.8rem;
+  }
+
+  .banner-principal h4{
+    font-size: 1rem;
+  }
+
+  .oque h4{
+    font-size: 1rem;
+  }
+
+  .tratamento h4 {
+    font-size: 1rem;
+  }
+
+  .dramarcela-arrabal h4 {
+    font-size: 1rem;
+  }
+
+}
