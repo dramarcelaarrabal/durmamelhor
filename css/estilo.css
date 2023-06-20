@@ -479,9 +479,32 @@ html{scroll-behavior: smooth;}
 
 @media(max-width: 991px){
 
-  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    .navbar .collapse .navbar-nav .nav-item .nav-link{
+    color: #727176;
     font-size: 1rem;
-  }
+    margin: 0;
+    padding: 0.5rem 1rem;
+    border: 0;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+    color: #3D3D3F;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span{
+    color: #727176;
+    background-color: transparent;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    border: 0;   
+
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span:hover{
+    color: #3D3D3F;
+    background-color: transparent;
+}
 
   .banner-principal{
     text-align: center;
