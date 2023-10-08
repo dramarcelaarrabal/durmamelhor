@@ -340,6 +340,52 @@ html{scroll-behavior: smooth;}
 
 
 
+
+  /* EBOOK */ /* EBOOK */ /* EBOOK */ /* EBOOK */ /* EBOOK */
+
+.ebook{
+  padding: 44px;
+  background-color: #fff;
+}
+
+.ebook img{
+  zoom: 90%;
+}
+
+.ebook h1{
+  font-weight: bold;
+  color: #5B5B5F;
+  padding: 33px 0 0 0;
+}
+
+.ebook h3{
+    font-weight: normal;
+    font-size: 1.3rem;
+    color: #727176;
+    text-align: justify;
+    padding: 23px 0;
+}
+
+.ebook a{
+  text-decoration: none;
+}
+
+.ebook h4{
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: #5B5B5F;
+  color: #fff;
+  padding: 15px 0 16px 0;
+  border-radius: 55px;
+}
+
+.ebook h4:hover{
+  background-color: #212529;
+}
+
+
+
+
 /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
 
   .footer{
